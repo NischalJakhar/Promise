@@ -23,6 +23,8 @@ https://httpbin.org/
 
 >Instead of passing a path to the resource you want to request into the fetch() call, you can create a request object using the Request() constructor, and pass that in as a fetch() method argument:
 
+>request() accepts exactly the same parameters as the fetch() method
+
 ```
 var myHeaders = new Headers();
 
